@@ -20,7 +20,7 @@ public class Game {
         while(isGameOver() == Boolean.FALSE) {
 
             if (turn == 0) {
-                // player 1 turn
+              
                 System.out.println("Player 1 make your selection (0-6)");
                 selectedCol = scanner.nextInt();
                 processMove(selectedCol, 1);
@@ -30,7 +30,7 @@ public class Game {
                 }
             }
             else {
-                // player 2 turn
+          
                 System.out.println("Player 2 make your selection (0-6)");
                 selectedCol = scanner.nextInt();
                 processMove(selectedCol, 2);
